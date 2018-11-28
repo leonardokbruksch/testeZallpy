@@ -46,29 +46,37 @@ function createBootstrapTable(){
         url: 'usersTable',
         columns: [{
             field: 'id',
-            title: 'ID'
+            title: 'ID',
+            sortable: true
 
         }, {
             field: 'name',
-            title: 'Name'
+            title: 'Name',
+            sortable: true
         }, {
             field: 'surname',
-            title: 'Surname'
+            title: 'Surname',
+            sortable: true
         }, {
             field: 'email',
-            title: 'E-mail'
+            title: 'E-mail',
+            sortable: true
         }, {
             field: 'phone',
-            title: 'Phone'
+            title: 'Phone',
+            sortable: true
         }, {
             field: 'registerDate',
-            title: 'Register Date'
+            title: 'Register Date',
+            sortable: true
         }, {
             field: 'isEnabled',
-            title: 'Is Enabled'
+            title: 'Is Enabled',
+            sortable: true
         }, {
             field: 'password',
-            title: 'Password'
+            title: 'Password',
+            sortable: true
         }, ]
     });
 

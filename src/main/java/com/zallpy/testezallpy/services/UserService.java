@@ -18,9 +18,38 @@ public class UserService {
         User user = new User();
 
         user.setId((long) 1);
+        user.setUsername("leokb");
         user.setEnabled(true);
         user.setEmail("leokb@gmail.com");
         user.setName("Leonardo");
+        user.setSurname("Bruksch");
+        user.setPassword("123");
+        user.setPhone("99887766");
+        user.setRegisterDate(new Date());
+
+        userRepository.save(user);
+
+        user = new User();
+
+        user.setId((long) 2);
+        user.setUsername("joao12");
+        user.setEnabled(true);
+        user.setEmail("leokb@gmail.com");
+        user.setName("Joao");
+        user.setSurname("Bruksch");
+        user.setPassword("123");
+        user.setPhone("99887766");
+        user.setRegisterDate(new Date());
+
+        userRepository.save(user);
+
+        user = new User();
+
+        user.setId((long) 3);
+        user.setUsername("mario43");
+        user.setEnabled(true);
+        user.setEmail("leokb@gmail.com");
+        user.setName("Mario");
         user.setSurname("Bruksch");
         user.setPassword("123");
         user.setPhone("99887766");
